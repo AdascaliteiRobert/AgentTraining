@@ -7,6 +7,12 @@ app.use(bodyParser.json());
 let userGoals = {};
 let userDietPlans = {};
 
+//hello world
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
+
 const foodInfo = {
   "ovaz": { calories: 150, info: "Ovăzul este bogat în fibre și ajută la menținerea senzației de sațietate.", equivalent: ["muesli", "cereale integrale"] },
   "fructe": { calories: 60, info: "Fructele sunt o sursă excelentă de vitamine și antioxidanți.", equivalent: ["legume proaspete", "smoothie"] },
