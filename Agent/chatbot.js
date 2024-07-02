@@ -84,9 +84,9 @@ const foodInfo = {
     info: "Ouale sunt o sursa excelenta de proteine, vitaminele B2, B6, B12, D si minerale (zinc, fier). Consumul de oua sprijina sanatatea ochilor, a creierului si a oaselor.", 
     equivalent: ["tofu", "iaurt"] 
   },
-  "broccoli": { 
+  "broccoliul": { 
     calories: 50, 
-    info: "Broccoli este bogat in vitaminele C si K, fibre, potasiu, calciu, si fitonutrienti. Consumul de broccoli sprijina sanatatea cardiovasculara, digestiva si a sistemului imunitar.", 
+    info: "Broccoliul este bogat in vitaminele C si K, fibre, potasiu, calciu, si fitonutrienti. Consumul de broccoli sprijina sanatatea cardiovasculara, digestiva si a sistemului imunitar.", 
     equivalent: ["conopida", "spanac"] 
   },
   "spanac": { 
@@ -127,41 +127,41 @@ const dietPlans = {
       { breakfast: "Ovăz cu fructe", lunch: "Salată cu pui la grătar", dinner: "Quinoa cu legume" },
       { breakfast: "Smoothie cu spanac și banane", lunch: "Supă de legume", dinner: "Pui la cuptor cu broccoli" },
       { breakfast: "Iaurt grecesc cu fructe", lunch: "Wrap de pui cu legume", dinner: "Somon la grătar cu sparanghel" },
-      { breakfast: "Omelet cu legume", lunch: "Sandwich cu curcan și avocado", dinner: "Pește la cuptor cu legume aburite" },
-      { breakfast: "Greek yogurt cu miere și nuci", lunch: "Chicken salad with mixed greens", dinner: "Beef stir-fry with vegetables" }
+      { breakfast: "Omletă cu legume", lunch: "Sandwich cu curcan și avocado", dinner: "Pește la cuptor cu legume aburite" },
+      { breakfast: "Iaurt grecesc cu miere și nuci", lunch: "Salată de pui cu mix de verdețuri", dinner: "Vită prăjită cu legume" }
     ],
     vegetarian: [
       { breakfast: "Smoothie cu lapte de migdale și fructe", lunch: "Legume sotate cu tofu", dinner: "Supă de linte cu salată" },
       { breakfast: "Ovăz cu lapte de migdale și fructe", lunch: "Burger vegetarian cu salată", dinner: "Quinoa cu legume și hummus" },
       { breakfast: "Toast cu avocado", lunch: "Salată de năut și legume", dinner: "Paste cu sos de roșii și legume" },
-      { breakfast: "Fruit smoothie with almond milk", lunch: "Grilled vegetable and hummus wrap", dinner: "Stuffed bell peppers with quinoa and black beans" },
-      { breakfast: "Chia pudding with coconut milk and fruits", lunch: "Lentil soup with whole grain bread", dinner: "Vegetable stir-fry with tofu" }
+      { breakfast: "Smoothie de fructe cu lapte de migdale", lunch: "Wrap cu legume la grătar și hummus", dinner: "Ardei umpluți cu quinoa și fasole neagră" },
+      { breakfast: "Budincă de chia cu lapte de cocos și fructe", lunch: "Supă de linte cu pâine integrală", dinner: "Legume prăjite cu tofu" }
     ],
     vegan: [
       { breakfast: "Toast cu avocado și pâine integrală", lunch: "Salată de quinoa cu năut și legume", dinner: "Curry vegan cu orez" },
       { breakfast: "Smoothie cu lapte de soia și fructe", lunch: "Wrap cu legume și hummus", dinner: "Tofu la grătar cu legume" },
-      { breakfast: "Porridge cu fructe și semințe", lunch: "Salată de linte și legume", dinner: "Burger vegan cu salată" },
-      { breakfast: "Overnight oats with almond milk and berries", lunch: "Chickpea salad with quinoa", dinner: "Vegetable curry with brown rice" },
-      { breakfast: "Smoothie bowl with fruits and granola", lunch: "Falafel wrap with mixed vegetables", dinner: "Grilled tempeh with steamed broccoli" }
+      { breakfast: "Ovăz cu fructe și semințe", lunch: "Salată de linte și legume", dinner: "Burger vegan cu salată" },
+      { breakfast: "Ovăz peste noapte cu lapte de migdale și fructe", lunch: "Salată de năut cu quinoa", dinner: "Curry de legume cu orez brun" },
+      { breakfast: "Bol de smoothie cu fructe și granola", lunch: "Wrap cu falafel și legume mixte", dinner: "Tempeh la grătar cu broccoli aburit" }
     ],
     alergii: {
       lapte: [
         { breakfast: "Ovăz cu apă și fructe", lunch: "Salată de pui fără dressing cu lactate", dinner: "Pește la grătar cu legume" },
         { breakfast: "Smoothie cu lapte de cocos și fructe", lunch: "Wrap de curcan cu legume", dinner: "Tocană de legume" },
-        { breakfast: "Chia pudding with almond milk", lunch: "Quinoa salad with grilled chicken", dinner: "Fish curry with steamed vegetables" },
-        { breakfast: "Smoothie with coconut milk", lunch: "Turkey wrap with vegetables", dinner: "Vegetable stir-fry with tofu" }
+        { breakfast: "Budincă de chia cu lapte de migdale", lunch: "Salată de quinoa cu pui la grătar", dinner: "Curry de pește cu legume aburite" },
+        { breakfast: "Smoothie cu lapte de cocos", lunch: "Wrap de curcan cu legume", dinner: "Legume prăjite cu tofu" }
       ],
       nuci: [
         { breakfast: "Salată de fructe cu iaurt de cocos", lunch: "Wrap cu pui și legume", dinner: "Pește la grătar cu legume aburite" },
-        { breakfast: "Porridge cu fructe și semințe de chia", lunch: "Salată de năut și legume", dinner: "Pui la cuptor cu legume" },
-        { breakfast: "Greek yogurt with honey and berries", lunch: "Chicken wrap with mixed greens", dinner: "Grilled salmon with asparagus" },
-        { breakfast: "Smoothie with almond milk and banana", lunch: "Lentil soup with whole grain bread", dinner: "Grilled chicken with quinoa" }
+        { breakfast: "Ovăz cu fructe și semințe de chia", lunch: "Salată de năut și legume", dinner: "Pui la cuptor cu legume" },
+        { breakfast: "Iaurt grecesc cu miere și fructe de pădure", lunch: "Wrap de pui cu mix de verdețuri", dinner: "Somon la grătar cu sparanghel" },
+        { breakfast: "Smoothie cu lapte de migdale și banane", lunch: "Supă de linte cu pâine integrală", dinner: "Pui la grătar cu quinoa" }
       ],
       gluten: [
         { breakfast: "Ovăz fără gluten cu fructe de pădure", lunch: "Salată cu pui la grătar și quinoa", dinner: "Legume sotate cu tofu și orez" },
         { breakfast: "Smoothie cu fructe și lapte de migdale", lunch: "Tocană de legume cu quinoa", dinner: "Pește la cuptor cu legume" },
-        { breakfast: "Buckwheat pancakes with berries", lunch: "Quinoa salad with grilled chicken", dinner: "Vegetable stir-fry with tofu" },
-        { breakfast: "Smoothie with gluten-free oats", lunch: "Grilled vegetable and quinoa salad", dinner: "Baked fish with steamed vegetables" }
+        { breakfast: "Clătite din hrișcă cu fructe de pădure", lunch: "Salată de quinoa cu pui la grătar", dinner: "Legume prăjite cu tofu" },
+        { breakfast: "Smoothie cu ovăz fără gluten", lunch: "Salată de legume la grătar și quinoa", dinner: "Pește copt cu legume aburite" }
       ]
     }
   },
@@ -170,41 +170,41 @@ const dietPlans = {
       { breakfast: "Ouă și toast cu avocado", lunch: "Bol cu pui și quinoa", dinner: "Stir-fry cu vită și legume" },
       { breakfast: "Smoothie proteic cu lapte de migdale", lunch: "Salată de pui cu avocado", dinner: "Curcan la grătar cu orez brun" },
       { breakfast: "Omletă cu legume", lunch: "Wrap de pui cu legume", dinner: "Somon la grătar cu cartofi dulci" },
-      { breakfast: "Scrambled eggs with spinach and whole-grain toast", lunch: "Chicken and quinoa bowl", dinner: "Beef and vegetable stir-fry" },
-      { breakfast: "Protein smoothie with almond milk", lunch: "Tuna salad with avocado", dinner: "Baked salmon with sweet potatoes" }
+      { breakfast: "Ouă amestecate cu spanac și toast integral", lunch: "Bol cu pui și quinoa", dinner: "Vită prăjită cu legume" },
+      { breakfast: "Smoothie proteic cu lapte de migdale", lunch: "Salată de ton cu avocado", dinner: "Somon la cuptor cu cartofi dulci" }
     ],
     vegetarian: [
       { breakfast: "Iaurt grecesc cu granola și fructe", lunch: "Bol cu quinoa și fasole neagră", dinner: "Paste cu legume și chiftele de linte" },
       { breakfast: "Smoothie proteic cu lapte de migdale", lunch: "Salată de linte cu legume", dinner: "Curry de legume cu orez" },
       { breakfast: "Ovăz cu proteine și fructe", lunch: "Tocană de legume și tofu", dinner: "Burger vegetarian cu cartofi dulci" },
-      { breakfast: "Greek yogurt with granola and fruits", lunch: "Bean and quinoa bowl", dinner: "Lentil soup with whole grain bread" },
-      { breakfast: "Protein smoothie with almond milk", lunch: "Chickpea salad with mixed vegetables", dinner: "Grilled vegetable and tofu stir-fry" }
+      { breakfast: "Iaurt grecesc cu granola și fructe", lunch: "Bol cu quinoa și fasole", dinner: "Supă de linte cu pâine integrală" },
+      { breakfast: "Smoothie proteic cu lapte de migdale", lunch: "Salată de năut cu legume mixte", dinner: "Legume prăjite cu tofu" }
     ],
     vegan: [
       { breakfast: "Omletă de tofu cu legume", lunch: "Salată de linte și quinoa", dinner: "Curry cu năut și spanac cu orez" },
       { breakfast: "Smoothie proteic cu lapte de soia", lunch: "Wrap cu legume și tofu", dinner: "Tocană de legume cu năut" },
       { breakfast: "Ovăz cu proteine și lapte de migdale", lunch: "Salată de năut și legume", dinner: "Tofu la grătar cu legume" },
-      { breakfast: "Tofu scramble with vegetables", lunch: "Quinoa and chickpea salad", dinner: "Lentil curry with brown rice" },
-      { breakfast: "Protein smoothie with soy milk", lunch: "Hummus and vegetable wrap", dinner: "Tofu stir-fry with broccoli" }
+      { breakfast: "Omletă de tofu cu legume", lunch: "Salată de quinoa și năut", dinner: "Curry de linte cu orez brun" },
+      { breakfast: "Smoothie proteic cu lapte de soia", lunch: "Wrap cu hummus și legume", dinner: "Legume prăjite cu tofu" }
     ],
     alergii: {
       lapte: [
         { breakfast: "Smoothie cu lapte de ovăz și fructe", lunch: "Wrap cu pui și legume", dinner: "Pește la grătar cu quinoa și legume" },
         { breakfast: "Ovăz cu apă și fructe", lunch: "Salată de pui fără lactate", dinner: "Tocană de legume cu năut" },
-        { breakfast: "Smoothie with coconut milk and fruits", lunch: "Chicken wrap with mixed greens", dinner: "Grilled fish with quinoa" },
-        { breakfast: "Chia pudding with almond milk", lunch: "Turkey and avocado salad", dinner: "Vegetable stir-fry with tofu" }
+        { breakfast: "Smoothie cu lapte de cocos și fructe", lunch: "Wrap de pui cu mix de verdețuri", dinner: "Pește la grătar cu quinoa" },
+        { breakfast: "Budincă de chia cu lapte de migdale", lunch: "Salată de curcan și avocado", dinner: "Legume prăjite cu tofu" }
       ],
       nuci: [
         { breakfast: "Smoothie cu lapte de ovăz și fructe", lunch: "Wrap cu pui și legume", dinner: "Pește la grătar cu quinoa și legume" },
-        { breakfast: "Porridge cu fructe și semințe de chia", lunch: "Salată de pui fără nuci", dinner: "Tocană de legume cu năut" },
-        { breakfast: "Greek yogurt with berries", lunch: "Chicken and quinoa bowl", dinner: "Grilled salmon with steamed vegetables" },
-        { breakfast: "Smoothie with almond milk and banana", lunch: "Lentil soup with whole grain bread", dinner: "Grilled chicken with vegetables" }
+        { breakfast: "Ovăz cu fructe și semințe de chia", lunch: "Salată de pui fără nuci", dinner: "Tocană de legume cu năut" },
+        { breakfast: "Iaurt grecesc cu fructe de pădure", lunch: "Bol cu pui și quinoa", dinner: "Somon la grătar cu legume aburite" },
+        { breakfast: "Smoothie cu lapte de migdale și banane", lunch: "Supă de linte cu pâine integrală", dinner: "Pui la grătar cu legume" }
       ],
       gluten: [
         { breakfast: "Clătite fără gluten cu fructe de pădure", lunch: "Salată cu pui la grătar și cartofi dulci", dinner: "Orez cu legume și fasole" },
         { breakfast: "Ovăz fără gluten cu fructe de pădure", lunch: "Tocană de legume cu quinoa", dinner: "Pește la cuptor cu legume" },
-        { breakfast: "Buckwheat pancakes with berries", lunch: "Quinoa salad with grilled chicken", dinner: "Vegetable stir-fry with tofu" },
-        { breakfast: "Smoothie with gluten-free oats", lunch: "Grilled vegetable and quinoa salad", dinner: "Baked fish with steamed vegetables" }
+        { breakfast: "Clătite din hrișcă cu fructe de pădure", lunch: "Salată de quinoa cu pui la grătar", dinner: "Legume prăjite cu tofu" },
+        { breakfast: "Smoothie cu ovăz fără gluten", lunch: "Salată de legume la grătar și quinoa", dinner: "Pește copt cu legume aburite" }
       ]
     }
   },
@@ -213,45 +213,46 @@ const dietPlans = {
       { breakfast: "Iaurt grecesc cu miere și nuci", lunch: "Sandwich cu curcan și avocado", dinner: "Somon la grătar cu sparanghel" },
       { breakfast: "Smoothie proteic cu lapte de migdale", lunch: "Salată de pui cu avocado", dinner: "Curcan la cuptor cu legume" },
       { breakfast: "Omletă cu legume", lunch: "Wrap de pui cu legume", dinner: "Pui la grătar cu broccoli" },
-      { breakfast: "Greek yogurt with honey and nuts", lunch: "Turkey and avocado sandwich", dinner: "Baked chicken with broccoli" },
-      { breakfast: "Protein smoothie with almond milk", lunch: "Chicken salad with avocado", dinner: "Grilled salmon with asparagus" }
+      { breakfast: "Iaurt grecesc cu miere și nuci", lunch: "Sandwich cu curcan și avocado", dinner: "Pui copt cu broccoli" },
+      { breakfast: "Smoothie proteic cu lapte de migdale", lunch: "Salată de pui cu avocado", dinner: "Somon la grătar cu sparanghel" }
     ],
     vegetarian: [
       { breakfast: "Bol de smoothie cu fructe și granola", lunch: "Salată Caprese cu quinoa", dinner: "Ardei umpluți cu orez și fasole" },
       { breakfast: "Iaurt grecesc cu miere și fructe", lunch: "Burger vegetarian cu salată", dinner: "Quinoa cu legume și hummus" },
       { breakfast: "Toast cu avocado", lunch: "Salată de năut și legume", dinner: "Paste cu sos de roșii și legume" },
-      { breakfast: "Smoothie bowl with fruits and granola", lunch: "Quinoa and black bean salad", dinner: "Stuffed bell peppers with vegetables" },
-      { breakfast: "Greek yogurt with honey and fruits", lunch: "Lentil soup with whole grain bread", dinner: "Vegetable stir-fry with tofu" }
+      { breakfast: "Bol de smoothie cu fructe și granola", lunch: "Salată de quinoa și fasole neagră", dinner: "Ardei umpluți cu legume" },
+      { breakfast: "Iaurt grecesc cu miere și fructe", lunch: "Supă de linte cu pâine integrală", dinner: "Legume prăjite cu tofu" }
     ],
     vegan: [
       { breakfast: "Ovăz peste noapte cu lapte de migdale și fructe", lunch: "Bol Buddha vegan cu tofu", dinner: "Legume sotate cu tempeh și orez" },
       { breakfast: "Smoothie cu lapte de soia și fructe", lunch: "Wrap cu legume și hummus", dinner: "Tofu la grătar cu legume" },
-      { breakfast: "Porridge cu fructe și semințe", lunch: "Salată de linte și legume", dinner: "Burger vegan cu salată" },
-      { breakfast: "Overnight oats with almond milk and berries", lunch: "Chickpea salad with quinoa", dinner: "Vegetable curry with brown rice" },
-      { breakfast: "Smoothie bowl with fruits and granola", lunch: "Falafel wrap with mixed vegetables", dinner: "Grilled tempeh with steamed broccoli" }
+      { breakfast: "Ovăz cu fructe și semințe", lunch: "Salată de linte și legume", dinner: "Burger vegan cu salată" },
+      { breakfast: "Ovăz peste noapte cu lapte de migdale și fructe", lunch: "Salată de năut cu quinoa", dinner: "Curry de legume cu orez brun" },
+      { breakfast: "Bol de smoothie cu fructe și granola", lunch: "Wrap cu falafel și legume mixte", dinner: "Tempeh la grătar cu broccoli aburit" }
     ],
     alergii: {
       lapte: [
         { breakfast: "Smoothie cu lapte de cocos", lunch: "Salată de pui cu avocado", dinner: "Cod la cuptor cu legume la grătar" },
         { breakfast: "Ovăz cu apă și fructe", lunch: "Salată de pui fără lactate", dinner: "Tocană de legume cu năut" },
-        { breakfast: "Chia pudding with almond milk", lunch: "Quinoa salad with grilled chicken", dinner: "Fish curry with steamed vegetables" },
-        { breakfast: "Smoothie with coconut milk", lunch: "Turkey wrap with vegetables", dinner: "Vegetable stir-fry with tofu" }
+        { breakfast: "Budincă de chia cu lapte de migdale", lunch: "Salată de quinoa cu pui la grătar", dinner: "Curry de pește cu legume aburite" },
+        { breakfast: "Smoothie cu lapte de cocos", lunch: "Wrap de curcan cu legume", dinner: "Legume prăjite cu tofu" }
       ],
       nuci: [
         { breakfast: "Budincă de chia cu lapte de cocos", lunch: "Salată de pui cu avocado", dinner: "Cod la cuptor cu legume la grătar" },
-        { breakfast: "Porridge cu fructe și semințe de chia", lunch: "Salată de pui fără nuci", dinner: "Tocană de legume cu năut" },
-        { breakfast: "Greek yogurt with honey and berries", lunch: "Chicken wrap with mixed greens", dinner: "Grilled salmon with asparagus" },
-        { breakfast: "Smoothie with almond milk and banana", lunch: "Lentil soup with whole grain bread", dinner: "Grilled chicken with quinoa" }
+        { breakfast: "Ovăz cu fructe și semințe de chia", lunch: "Salată de pui fără nuci", dinner: "Tocană de legume cu năut" },
+        { breakfast: "Iaurt grecesc cu miere și fructe de pădure", lunch: "Wrap de pui cu mix de verdețuri", dinner: "Somon la grătar cu sparanghel" },
+        { breakfast: "Smoothie cu lapte de migdale și banane", lunch: "Supă de linte cu pâine integrală", dinner: "Pui la grătar cu quinoa" }
       ],
       gluten: [
         { breakfast: "Smoothie cu granola fără gluten", lunch: "Salată de quinoa și legume cu pui", dinner: "Legume sotate cu tofu și orez" },
         { breakfast: "Ovăz fără gluten cu fructe de pădure", lunch: "Tocană de legume cu quinoa", dinner: "Pește la cuptor cu legume" },
-        { breakfast: "Buckwheat pancakes with berries", lunch: "Quinoa salad with grilled chicken", dinner: "Vegetable stir-fry with tofu" },
-        { breakfast: "Smoothie with gluten-free oats", lunch: "Grilled vegetable and quinoa salad", dinner: "Baked fish with steamed vegetables" }
+        { breakfast: "Clătite din hrișcă cu fructe de pădure", lunch: "Salată de quinoa cu pui la grătar", dinner: "Legume prăjite cu tofu" },
+        { breakfast: "Smoothie cu ovăz fără gluten", lunch: "Salată de legume la grătar și quinoa", dinner: "Pește copt cu legume aburite" }
       ]
     }
   }
 };
+
 
 
 app.post('/webhook', (req, res) => {
